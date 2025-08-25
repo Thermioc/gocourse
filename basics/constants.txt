@@ -1,0 +1,14 @@
+package main
+
+const PI = 3.1415
+const GRAVITY = 9.81
+
+func main() {
+	const DAYS int = 7
+	const (
+		monday        = 1
+		tuesday       = 2
+		wednesday int = 3
+	)
+
+}

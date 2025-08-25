@@ -1,0 +1,28 @@
+package main
+
+import "fmt"
+
+func main() {
+	//
+	var a, b int = 10, 3
+	var result int = 0
+
+	result = a + b
+	fmt.Println(result)
+
+	result = a - b
+	fmt.Println(result)
+
+	result = a * b
+	fmt.Println(result)
+
+	result = a / b
+	fmt.Println(result)
+
+	result = a % b
+	fmt.Println(result)
+
+	const p float64 = 22 / 7.0
+	fmt.Println(p)
+
+}
